@@ -1,0 +1,216 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(166, 168, 209);
+}
+
+header{
+    position: fixed;
+    top: 0; left:0; right:0;
+    background: #817f7f;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-weight:lighter;
+    font-size: 25px;
+    color: #333;
+}
+header .navbar ul{
+list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+header .navbar ul li a:hover{
+background: #333;
+color: #ffffff;
+}
+
+#menu-bar{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    color:#333;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left:0; right: 0;
+        background: #857a7aa8;
+        border-top: solid rgb(0,0,0,.1);
+        display: none;
+    }
+    header .navbar ul li{
+        width: 100px;
+        
+    } 
+
+    header .navbar ul li ul{
+        position: relative;
+        width :100px;
+    }
+    header .navbar ul li ul li{
+        background: rgb(114, 110, 110);
+    }
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+    #menu-bar:checked ~.navbar{
+        display: initial;
+    }
+}
+
+.cdp{
+    width: 250px;
+    height: 200px;
+    background: #333;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.cdpD{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 0px;
+    background-color: #388096;
+    text-align: center;
+}
+.cdpP{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+    background-color: #10576d;
+    text-align: center;
+}
+.cdpimg
+{
+
+width: 200px;
+height: 165px;
+position: absolute;
+top: 25;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+.cdp2{
+    width: 250px;
+    height: 200px;
+    background: #333;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.cdpD2{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 0px;
+    background-color: #388096;
+    text-align: center;
+}
+.cdpP2{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+    background-color: #10576d;
+    text-align: center;
+}
+.cdpimg2
+{
+width: 200px;
+height: 165px;
+position: absolute;
+top: 25;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
+
+.cdp3{
+    width: 250px;
+    height: 200px;
+    background: #333;
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.cdpD3{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 0px;
+    background-color: #388096;
+    text-align: center;
+}
+.cdpP3{
+    width: 125px;
+    height: 55px;
+    background: #333;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+    background-color: #10576d;
+    text-align: center;
+}
+.cdpimg3
+{
+
+width: 200px;
+height: 165px;
+position: absolute;
+top: 25;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+}
